@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "JetBrainsMono Nerd Font:pixelsize=13:antialias=true:autohint=true";
-static int borderpx = 1;
+static int borderpx = 10;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -97,6 +97,7 @@ unsigned int tabspaces = 8;
 float alpha = 0.8;
 
 /* Terminal colors (16 first used in escape sequence) */
+/* https://github.com/rose-pine/st */
 static const char *colorname[] = {
     "#26233a",
     "#eb6f92",
